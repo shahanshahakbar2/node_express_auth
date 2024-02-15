@@ -6,7 +6,7 @@ const reset_password = (name,email,token) =>{
               <p>Follow this link to reset your password..</p>
               <p>
               <strong>
-              <a class="btn" target="_blank" href="http://localhost:4000/password/reset?token=${token}">
+              <a class="btn" target="_blank" href="/password/reset?token=${token}">
               Reset Password</a>
               </strong>
               </p>
